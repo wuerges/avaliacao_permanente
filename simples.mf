@@ -1,0 +1,50 @@
+P. Você recomendaria este professor para esta disciplina para outros alunos?
+r. Não recomendaria
+r. Recomendaria
+r. Recomendaria fortemente
+P. Como você avalia o conhecimento do professor dos conteúdos da disciplina?
+r. Insuficiente
+r. Suficiente
+r. Adequado
+r. Abundante
+P. Quão claramente o professor explicou os conteúdos?
+r. Não foi claro
+r. Foi claro
+r. Foi muito claro
+P. O professor se preocupou se os alunos estavam entendendo o conteúdo?
+r. Não
+r. Sim
+r. Se preocupou muito
+P. Como o professor respondia às perguntas dos alunos?
+r. Não respondia
+r. Respondia mal
+r. Respondia bem
+r. Respondia muito bem
+P. A velocidade que o professor apresentou os conteúdos
+r. Foi muito devagar
+r. Foi devagar
+r. Foi adequada
+r. Foi rápida
+r. Foi rápida demais
+P. Quanto ao método de avaliação:
+c. Os trabalhos demandaram horas demais
+c. Eu poderia ter dedicado mais horas para fazer os trabalhos
+c. O conteúdo dos trabalhos foi adequado para a disciplina
+c. As provas foram muito difíceis
+c. Eu poderia ter estudando mais para as provas
+c. O conteúdo das provas foi adequado
+c. Outro, por favor especificar
+P. Foi fácil entrar em contato com professor quando preciso?
+c. Foi difícil
+c. Foi fácil
+c. Foi muito fácil
+P. Existe alguma área em que o professor poderia melhorar?
+c. Didática
+c. Avaliação (Provas)
+c. Avaliação (Trabalhos)
+c. Organização
+c. Interação com os alunos
+c. Outro (pro favor especificar)
+t.
+P. Quanto ao método de ensino, existe alguma sugestão?
+t.
