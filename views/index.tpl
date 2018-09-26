@@ -6,6 +6,12 @@
 <body>
 <form action="/send" method=POST>
 
+  <h1>Turma: {{oferta.turma}}</h1>
+  <h2>disciplina: {{oferta.disciplina}}</h2>
+
+  <input type="hidden" name="turma" value="{{oferta.codigo}}" />
+  <input type="hidden" name="time" value="{{time}}" />
+
 %for question in questions:
   <div><fieldset><h4> {{question.txt}} </h4>
   %for field in question.fields:
@@ -13,11 +19,11 @@
 
       <div>
         %if field.t == "c.":
-          <input type="checkbox" name="{{question.name()}}" value="{{field.value()}}" />
+          <input type="checkbox" name="c.{{question.txt}}" value="{{field.txt}}" />
         %elif field.t == "r.":
-          <input type="radio" name="{{question.name()}}" value="{{field.value()}}" />
+          <input type="radio" name="r.{{question.txt}}" value="{{field.txt}}" />
         %elif field.t == "t.":
-          <textarea cols="50" name="{{question.name()}}" ></textarea>
+          <textarea cols="50" name="t.{{question.txt}}" ></textarea>
         %else:
           <!-- error -->
         %end

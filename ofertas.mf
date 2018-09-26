@@ -1,0 +1,100 @@
+T. 22423 - Ciência da Computação - 4ª Fase - Vespertino - 2018/2
+D. GEX090 - Banco de dados I
+T. 22425 - Ciência da Computação - 4ª Fase - Vespertino - 2018/2
+D. GEX036 - Cálculo numérico
+T. 22434 - Ciência da Computação - 6ª Fase - Vespertino - 2018/2
+D. GEX108 - Construção de compiladores
+T. 22430 - Ciência da Computação - 6ª Fase - Vespertino - 2018/2
+D. GEX103 - Engenharia de software II
+T. 22428 - Ciência da Computação - 4ª Fase - Vespertino - 2018/2
+D. GEN039 - Grafos
+T. 22429 - Ciência da Computação - 6ª Fase - Vespertino - 2018/2
+D. GCH029 - História da fronteira Sul
+T. 22426 - Ciência da Computação - 4ª Fase - Vespertino - 2018/2
+D. GCH011 - Introdução ao pensamento social
+T. 22435 - Ciência da Computação - 8ª Fase - Matutino - 2018/2
+D. GCS011 - Meio ambiente, economia e sociedade
+T. 22433 - Ciência da Computação - 6ª Fase - Vespertino - 2018/2
+D. GCS107 - Planejamento e gestão de projetos
+T. 22424 - Ciência da Computação - 4ª Fase - Vespertino - 2018/2
+D. GEX099 - Programação II
+T. 22431 - Ciência da Computação - 6ª Fase - Vespertino - 2018/2
+D. GEX105 - Redes de computadores
+T. 22438 - Ciência da Computação - 8ª Fase - Matutino - 2018/2
+D. GEX112 - Segurança e auditoria de sistemas
+T. 22427 - Ciência da Computação - 4ª Fase - Vespertino - 2018/2
+D. GEX104 - Teoria da computação
+T. 22436 - Ciência da Computação (Optativo) - 8ª Fase - Matutino - 2018/2
+D. GEX626 - Tópicos especiais em computação IV
+T. 22437 - Ciência da Computação (Optativo) - 8ª Fase - Matutino - 2018/2
+D. GEX627 - Tópicos especiais em computação V
+T. 22440 - Ciência da Computação (Optativo) - 8ª Fase - Matutino - 2018/2
+D. GEX628 - Tópicos especiais em computação VI
+T. 22439 - Ciência da Computação - 8ª Fase - Matutino - 2018/2
+D. GEX120 - Trabalho de conclusão de curso II
+T. 22444 - Ciência da Computação - 3ª Fase - Noturno - 2018/2
+D. GEX012 - Álgebra linear
+T. 22446 - Ciência da Computação - 5ª Fase - Noturno - 2018/2
+D. GEX091 - Banco de dados II
+T. 22445 - Ciência da Computação - 3ª Fase - Noturno - 2018/2
+D. GEX009 - Cálculo I
+T. 22456 - Ciência da Computação - 9ª Fase - Noturno - 2018/2
+D. GEX106 - Computação distribuída
+T. 23017 - Ciência da Computação (Turma Especial) - 10ª Fase - Noturno - 2018/2
+D. GEX107 - Computação gráfica
+T. 22453 - Ciência da Computação - 7ª Fase - Noturno - 2018/2
+D. GEX108 - Construção de compiladores
+T. 22447 - Ciência da Computação - 5ª Fase - Noturno - 2018/2
+D. GEX102 - Engenharia de software I
+T. 22442 - Ciência da Computação - 3ª Fase - Noturno - 2018/2
+D. GEX092 - Estrutura de dados II
+T. 22451 - Ciência da Computação - 7ª Fase - Noturno - 2018/2
+D. GCH012 - Fundamentos da crítica social
+T. 22450 - Ciência da Computação - 5ª Fase - Noturno - 2018/2
+D. GEN039 - Grafos
+T. 22448 - Ciência da Computação - 5ª Fase - Noturno - 2018/2
+D. GCH008 - Iniciação à prática científica
+T. 22452 - Ciência da Computação - 7ª Fase - Noturno - 2018/2
+D. GEX109 - Inteligência artificial
+T. 22441 - Ciência da Computação - 3ª Fase - Noturno - 2018/2
+D. GEX093 - Matemática discreta
+T. 22443 - Ciência da Computação (Turma A) - 3ª Fase - Noturno - 2018/2
+D. GEX098 - Programação I
+T. 23034 - Ciência da Computação (Turma B) - 3ª Fase - Noturno - 2018/2
+D. GEX098 - Programação I
+T. 22457 - Ciência da Computação - 9ª Fase - Noturno - 2018/2
+D. GEX112 - Segurança e auditoria de sistemas
+T. 22455 - Ciência da Computação - 7ª Fase - Noturno - 2018/2
+D. GEX110 - Sistemas operacionais
+T. 22449 - Ciência da Computação - 5ª Fase - Noturno - 2018/2
+D. GEX104 - Teoria da computação
+T. 22458 - Ciência da Computação (Optativo) - 9ª Fase - Noturno - 2018/2
+D. GEX629 - Tópicos especiais em computação VII
+T. 22461 - Ciência da Computação - 9ª Fase - Noturno - 2018/2
+D. GEX119 - Trabalho de conclusão de curso I
+T. 22412 - Ciência da Computação - 2ª Fase - Vespertino - 2018/2
+D. GEX178 - Cálculo I
+T. 22413 - Ciência da Computação - 2ª Fase - Vespertino - 2018/2
+D. GEN253 - Circuitos digitais
+T. 22414 - Ciência da Computação - 2ª Fase - Vespertino - 2018/2
+D. GEX605 - Estruturas de dados
+T. 22417 - Ciência da Computação - 2ª Fase - Vespertino - 2018/2
+D. GEX195 - Geometria analítica
+T. 22415 - Ciência da Computação - 2ª Fase - Vespertino - 2018/2
+D. GEX055 - Probabilidade e estatística
+T. 22416 - Ciência da Computação - 2ª Fase - Vespertino - 2018/2
+D. GLA104 - Produção textual acadêmica
+T. 22421 - Ciência da Computação (Turma A) - 1ª Fase - Noturno - 2018/2
+D. GEX003 - Algoritmos e programação
+T. 23042 - Ciência da Computação (Turma B) - 1ª Fase - Noturno - 2018/2
+D. GEX003 - Algoritmos e programação
+T. 22422 - Ciência da Computação - 1ª Fase - Noturno - 2018/2
+D. GEX210 - Estatística básica
+T. 22418 - Ciência da Computação - 1ª Fase - Noturno - 2018/2
+D. GEX208 - Informática básica
+T. 22420 - Ciência da Computação - 1ª Fase - Noturno - 2018/2
+D. GCH293 - Introdução à filosofia
+T. 22419 - Ciência da Computação - 1ª Fase - Noturno - 2018/2
+D. GEX213 - Matemática C
+T. 23043 - Ciência da Computação (Turma Especial) - 10ª Fase - Noturno - 2018/2
+D. GEX643 - Tópicos especiais em computação XXI

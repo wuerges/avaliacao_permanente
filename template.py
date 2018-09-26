@@ -24,7 +24,7 @@ def load_questions(filename):
     questions = []
     question = None
 
-    with open("simples.mf", 'r') as f:
+    with open(filename, 'r') as f:
         for i, l in  enumerate(f.readlines()):
             w = l.split()
             t = " ".join(w[1:])
