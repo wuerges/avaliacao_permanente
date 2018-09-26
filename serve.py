@@ -13,6 +13,11 @@ def index(codigo):
     return {'questions': questions, 'oferta': ofertas[codigo], 'time': dt.datetime.now() }
 
 
+@get('/turmas12345')
+@view('turmas')
+def turmas():
+    return {"ofertas": ofertas}
+
 @get('/ok')
 @view('ok')
 def ok():
