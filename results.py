@@ -25,6 +25,15 @@ for d in data:
 
 df = df.drop('merge', axis=1)
 
+# Resultados agrupados por turma
+
+for turma, frame  in df.groupby('turma'):
+    print("------", turma, "-----")
+    for column in frame.columns if column != 'turma':
+        group = frame.groupby([column]).size().reset_index(name='counts')
+        plt.pie(group['counts'],labels=group[column])
+        plt.show()
+
 for turma, frame  in df.groupby('turma'):
     print("------", turma, "-----")
     for column in frame.columns:
