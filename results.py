@@ -25,18 +25,65 @@ for d in data:
 
 df = df.drop('merge', axis=1)
 
+class Tag:
+    def __init__(self, cr, f):
+        self.cr = cr
+        self.f = f
+    def __enter__(self):
+        print("<{}>".format(self.cr), file=self.f)
+    def __exit__(self, type, value, traceback):
+        print("</{}>".format(self.cr), file=self.f)
 # Resultados agrupados por turma
 
 for turma, frame  in df.groupby('turma'):
-    print("------", turma, "-----")
-    for column in frame.columns if column != 'turma':
-        group = frame.groupby([column]).size().reset_index(name='counts')
-        plt.pie(group['counts'],labels=group[column])
-        plt.show()
+    with open("outputs/turma_{}.html".format(turma), 'w') as f:
+        print("<html><head><meta charset=\"UTF-8\"></head><body>", file=f)
+        print("<h1> Turma", turma ,"</h1>", file=f)
+        for i, column in enumerate(frame.columns):
+            if not column in {'turma', 'time'}:
+                print("<h2>", column ,"</h2>", file=f)
+                group = frame.groupby([column]).size().reset_index(name='counts')
+                fig = plt.figure()
+                plt.pie(group['counts'],labels=group[column])
+                imgname = "turma_{}_imagem_{}.png".format(turma, i)
+                fig.savefig("outputs/"+imgname)
 
-for turma, frame  in df.groupby('turma'):
-    print("------", turma, "-----")
-    for column in frame.columns:
-        group = frame.groupby([column]).size().reset_index(name='counts')
-        plt.pie(group['counts'],labels=group[column])
-        plt.show()
+                with Tag("table", f):
+                    with Tag("tr", f):
+                        for gc in group[column]:
+                            with Tag("td", f):
+                                print(gc, file=f)
+                    with Tag("tr", f):
+                        for gc in group['counts']:
+                            with Tag("td", f):
+                                print(gc, file=f)
+
+                print("<img src={} />".format(imgname), file=f)
+        print("</body></html>", file=f)
+
+with open("outputs/total.html", 'w') as f:
+    print("<html><head><meta charset=\"UTF-8\"></head><body>", file=f)
+
+    for i, column in enumerate(frame.columns):
+        if not column in {'time'}:
+            print("<h2>", column ,"</h2>", file=f)
+
+            group = frame.groupby([column]).size().reset_index(name='counts')
+
+            fig = plt.figure()
+            plt.pie(group['counts'],labels=group[column])
+            imgname = "total_imagem_{}.png".format(i)
+            fig.savefig("outputs/"+imgname)
+
+            with Tag("table", f):
+                with Tag("tr", f):
+                    for gc in group[column]:
+                        with Tag("td", f):
+                            print(gc, file=f)
+                with Tag("tr", f):
+                    for gc in group['counts']:
+                        with Tag("td", f):
+                            print(gc, file=f)
+            print("<img src={} />".format(imgname), file=f)
+
+    print("</body></html>", file=f)
