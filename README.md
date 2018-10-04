@@ -52,11 +52,15 @@ IMPORTANTE: Não pode ter linhas em branco.
 ## Configurando as turmas.
 
 As turmas estão descritas no arquivo `ofertas.mf'.
-Este arquivo pode ter 2 tipos de linha. As linhas que começam com T. indicam uma nova turma.
-As linhas que começam com D. indicam o nome da disciplina.
+Este arquivo pode ter 2 tipos de linha. 
+
+- As linhas que começam com T. indicam uma nova turma.
+- As linhas que começam com D. indicam o nome da disciplina. Nesta versão, estas linhas são ignoradas.
 
 O formato das linhas T. é importante. Elas precisam estar neste formato:
 
 ```
 T. <código de turma> - <outras informações>
 ```
+
+IMPORTANTE: Não pode ter linhas em branco.
