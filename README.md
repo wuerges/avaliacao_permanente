@@ -24,7 +24,9 @@ $ python serve.py
 
 Desta maneira, um servidor web estará atendendo as URL no seguinte formato:
 
+```
 http://localhost:8080/turma/<codigo da turma>
+```
 
 ## Gerando os resultados
 
