@@ -5,9 +5,10 @@ import urllib
 
 data = []
 
-with open('data/responses.json', 'r') as f:
+with open('data/responses.json', 'rb') as f:
     for l in f.readlines():
-        data.append(json.loads(l))
+        x = l.decode('unicode_escape').encode('latin').decode('utf8')
+        data.append(json.loads(x))
 
 
 df = pd.DataFrame()
@@ -66,7 +67,11 @@ with open("outputs/total.html", 'w') as f:
 
     for i, column in enumerate(frame.columns):
         if not column in {'time'}:
-            print("<h2>", column ,"</h2>", file=f)
+            if column == "turma":
+                print("<h2> Resultado agregado para todas as turmas </h2>", file=f)
+            else:
+                print("<h2>", column ,"</h2>", file=f)
+
 
             group = frame.groupby([column]).size().reset_index(name='counts')
 
